@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Car Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- nav -->
+    <nav class="nav">
+        <div class="logo">
+            <h2>C & K Motors</h2>
+        </div>
+        <div class="links">
+            <a href="#">About</a>
+            <a href="#">Service</a>
+            <a href="#">Cars</a>
+            <a href="#">Pricing</a>
+        </div>
+        <div class="contact">
+            <button>Contact</button>
+            <button>Rent</button>
+        </div>
+    </nav>
+    <!-- home -->
+    <div class="home">
+        <div class="left">
+            <div class="car-name" >
+                <h2 id="car-name">Your Car, <br> Your Journey, <br> Your Way</h2>
+            </div>
+            <div class="car-description">
+                <p id="car-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis laboriosam hic unde culpa facere voluptates, maxime vel quod quasi possimus officia quidem eum adipisci</p>
+            </div>
+            <div class="btn">
+                <button>View details</button>
+            </div>
+        </div>
+        <div class="center">
+            <img id="car-img" src="car2.png" alt="car">
+        </div>
+        <div class="right">
+            <div class="right_txt">
+                <h2>100+</h2>
+                <p>Trusted Clients</p>
+            </div>
+            <hr>
+            <div class="right_txt">
+                <h2>120+</h2>
+                <p>Cars Sold</p>
+            </div>
+            <hr>
+            <div class="right_txt">
+                <h2>200+</h2>
+                <p>Cars Repaired</p>
+            </div>
+        </div>
+    </div>
+    <!-- choice -->
+    <div class="more_cars">
+        <div onclick="showCar('range')" class="cars">
+            <img src="car1.png" alt="">
+            <div class="car_details">
+                <h3>Your Car</h3>
+                <p>Your car, your way, your journey</p>
+            </div>
+        </div>
+        <div onclick="showCar('jeep')" class="cars">
+            <img src="car3.png" alt="">
+            <div class="car_details">
+                <h3>Your Car</h3>
+                <p>Your car, your way, your journey</p>
+            </div>
+        </div>
+        <div onclick="showCar('tesla')" class="cars">
+            <img src="car4.png" alt="">
+            <div class="car_details">
+                <h3>Your Car</h3>
+                <p>Your car, your way, your journey</p>
+            </div>
+        </div>
+    </div>
+    <!-- <div class="container">
+        <div class="menu">
+            <h2>Menu</h2>
+            <ul>
+                <li onclick="showCake('chocolate')">Chocolate Cake</li>
+                <li onclick="showCake('vanilla')">Vanilla Cake</li>
+                <li onclick="showCake('strawberry')">Strawberry Cake</li>
+            </ul>
+        </div>
+        <div class="cake-display">
+            <img id="cake-img" src="" alt="Cake">
+            <div id="cake-details">
+                <h2 id="cake-name"></h2>
+                <p id="cake-price"></p>
+                <p id="cake-description"></p>
+            </div>
+        </div>
+    </div> -->
+    <script src="script.js"></script>
+</body>
+</html>
